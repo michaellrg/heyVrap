@@ -35,7 +35,7 @@ return result;
 	@Path ("/first")
 	
 	public void first() {
-		result.include("var", "CADÊ GABRIELLLLLLL?");
+		result.include("var", "Yeah, Works Fine!");
 	result.redirectTo(IndexController.class).index();
 	}
 	
